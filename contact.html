@@ -4,34 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>About me</title>
 </head>
 <body>
-        <header>Blake Mangen</header>
-        <nav>
-            <a href="index.html">About</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="portfolio.html">Portfolio</a>
-        </nav>
+    <header id="mastheader">
+        <div class="container">
+            <a href="index.html" id="logo">Blake Mangen</a> 
+                <nav>
+                    <a href="index.html">About</a> 
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">contact</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main-container" class="container">
+    <section class="main-section">
 
-    <h2>Contact</h2>
-     
-    <div class="container">
-        <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Blake Mangen" name="Blake Mangen">
-        
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="blakemangen20@gamil.com" name="blakemangen20@gmail.com">
-        
-            <lable for="message">Message</lable>
-            <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
+        <h1>Contact</h1>
+            <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Blake Mangen" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="blakemangen20@gmail.com" required="required">
+                </li>
+                <li> 
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
         </form>
 
+       
 
-    </div>
-    
+    </section>
+  </div>
+
+  <footer>
+      <div class="container">
+          &copy; Copyright 2019 Blake Mangen
+      </div>
+  </footer>
 </body>
 </html>
