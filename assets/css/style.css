@@ -215,3 +215,11 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer
 }
+
+.hover:hover {
+    color: #4aaaa5;
+}
+
+#visited:active {
+    color: #5E2F17;
+}
