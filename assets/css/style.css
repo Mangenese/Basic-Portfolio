@@ -160,6 +160,7 @@ nav a:first-child {
     width: 100%;
     border: 0 none;
     opacity: .7;
+    padding: 15px;
 }
 
 .work h3 {
